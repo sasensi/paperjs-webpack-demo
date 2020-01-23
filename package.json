@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "paper": "^0.12.4"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build": "webpack",
+    "serve": "http-server -o ./dist"
+  }
+}
